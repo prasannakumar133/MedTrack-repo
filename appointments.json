@@ -1,0 +1,15 @@
+[
+  {
+    "id": 1750862245756,
+    "doctorId": 1750862098859,
+    "doctorName": "Teja babu",
+    "specialty": "cardiologist",
+    "patientId": 1750861807888,
+    "patientName": "prasanna vemulla",
+    "date": "2025-06-26",
+    "time": "15:30",
+    "reason": "y for u bro",
+    "status": "Completed",
+    "precautions": "cheppanapudu dengai"
+  }
+]
