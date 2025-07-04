@@ -350,8 +350,8 @@ app.get('/logout', (req, res) => {
   req.session.destroy(() => res.redirect('/'));
 });
 
-app.listen(port, () => {
-  console.log(`Server running at http://localhost:${port}`);
+app.listen(3000, '0.0.0.0', () => {
+  console.log('Server running on port 3000');
   console.log(`Using AWS Region: ${REGION}`);
   console.log(`Patients Table: ${PATIENTS_TABLE}`);
   console.log(`Doctors Table: ${DOCTORS_TABLE}`);
