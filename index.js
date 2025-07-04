@@ -21,7 +21,7 @@ const REGION = process.env.AWS_REGION || 'us-east-1';
 const dynamoClient = new DynamoDBClient({ 
   region: REGION,
   ...(process.env.IS_LOCAL === 'true' && {
-    endpoint: 'http://localhost:3000',
+    endpoint: 'http://localhost:8000',
     credentials: {
       accessKeyId: 'fakeMyKeyId',
       secretAccessKey: 'fakeSecretAccessKey'
